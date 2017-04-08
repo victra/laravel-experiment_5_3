@@ -9,12 +9,9 @@
         {!! Theme::asset()->scripts() !!}
     </head>
     <body>
-        {!! Theme::partial('header') !!}
 
         {!! Theme::content() !!}
 
-        {!! Theme::partial('footer') !!}
 
-        {!! Theme::asset()->container('footer')->scripts() !!}
     </body>
 </html>
