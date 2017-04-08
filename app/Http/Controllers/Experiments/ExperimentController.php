@@ -29,4 +29,11 @@ class ExperimentController extends \App\Http\Controllers\Controller
     {
       return view::make('experiment.exp_2');
     }
+
+    public function exp_3()
+    {
+      // return view::make('experiment.exp_3');
+      $theme = Theme::uses('default')->layout('default');
+      return $theme->scope('exp_3')->render();
+    }
 }
