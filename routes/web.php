@@ -10,7 +10,7 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-
+// resources digunakan untuk membuat route secara otomatis
 // Route::get('/', function () {
 //     return view('welcome');
 // });
